@@ -16,7 +16,11 @@ app.get('/categories', (req, res) => {
     res.send(categories);
 })
 
-const courses=require("./data/courses.json")
+const courses = require("./data/courses.json")
+
+app.get('/courses', (req, res) => {
+    res.send(courses);
+})
 app.get('/courses/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const selectedCourses = courses.filter(category => category.category_id === id);
