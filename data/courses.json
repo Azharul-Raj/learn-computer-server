@@ -1,0 +1,66 @@
+[
+    {
+        "category_id":1,
+        "course_uid":"aa11",
+        "name":"JavaScript",
+        "description":"",
+        "price":50,
+        "rating":4.9
+    },
+    {
+        "category_id":1,
+        "course_uid":"aa22",
+        "name":"PHP",
+        "description":"",
+        "price":45,
+        "rating":4.8
+    },
+    {
+        "category_id":2,
+        "course_uid":"bb11",
+        "name":"Advance C & C++",
+        "description":"",
+        "price":70,
+        "rating":4.9
+    },
+    {
+        "category_id":2,
+        "course_uid":"bb22",
+        "name":"Python && Java",
+        "description":"",
+        "price":60,
+        "rating":4.9
+    },
+    {
+        "category_id":3,
+        "course_uid":"cc11",
+        "name":"Adobe Photoshop",
+        "description":"",
+        "price":30,
+        "rating":4.6
+    },
+    {
+        "category_id":3,
+        "course_uid":"cc22",
+        "name":"Adobe Illustrator",
+        "description":"",
+        "price":40,
+        "rating":4.7
+    },
+    {
+        "category_id":4,
+        "course_uid":"dd11",
+        "name":"Swift",
+        "description":"",
+        "price":55,
+        "rating":4.8
+    },
+    {
+        "category_id":4,
+        "course_uid":"dd22",
+        "name":"Objective-C",
+        "description":"",
+        "price":60,
+        "rating":5
+    }
+]
