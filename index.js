@@ -31,3 +31,8 @@ app.get('/course/:id', (req, res) => {
     const singleCourse = courses.find(course => course.course_uid === id);
     res.send(singleCourse);
 })
+app.get('/premium/:id', (req, res) => {
+    const id = parseInt(req.params.id);
+    const course = courses.find(course => course.premium === id);
+    res.send(course)
+})
